@@ -6,5 +6,12 @@
     <string name="user">user</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_user">title_user</string>
+    <string name="tittle">tittle</string>
+    <string name="description">description</string>
+    <string name="save">save</string>
+    <string name="skip">skip</string>
+    <string name="get_started">Get Started</string>
+    <string name="desc">desc</string>
+    <string name="username">username</string>
+    <string name="Profile">Profile</string>
 </resources>
