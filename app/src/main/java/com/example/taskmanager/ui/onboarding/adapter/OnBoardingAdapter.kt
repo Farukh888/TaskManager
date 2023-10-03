@@ -15,22 +15,26 @@ class OnBoardingAdapter(private val onClick: () -> Unit) :
 
     val data = arrayListOf(
         OnBoarding(
+            0,
             "https://pngimg.com/uploads/yandex/yandex_PNG16.png",
             "Найдётся всё",
             "www.yandex.ru"
         ),
         OnBoarding(
+            0,
             "https://303421.selcdn.ru/soel-upload/iblock/6f9/6f9a9122dd27f1d68577fc8bbc4f5867/sberbank.png",
             "Всегда рядом",
             "www.sberbank.ru"
         ),
         OnBoarding(
+            0,
             "https://cdn-images.hashtap.com/1200x600/img/3G/Bfq/ZFwr/ythDvYiTwpkEW/Csa2xYmu6g/KkKRQmi2gSWuMns6.jpg",
             "Банк новых возможностей",
             "www.alfabank.ru"
         ),
 
         )
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): OnBoardingViewHolder {
         return OnBoardingViewHolder(
             ItemOnboardingBinding.inflate(
